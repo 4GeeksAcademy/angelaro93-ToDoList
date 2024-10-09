@@ -17,7 +17,7 @@ const ToDoList = () => {
   };
   return (
     <div className="container mt-5">
-      <h1 className="display-1 text-center text-black-50">todos</h1>
+      <h1 className="display-1 text-center text-black-50">to do's</h1>
       <div className="row justify-content-center mt-4">
         <div className="col-12 col-md-8">
           <div className="shadow p-4 bg-white rounded">
@@ -27,7 +27,7 @@ const ToDoList = () => {
                 value={task}
                 onKeyDown={handleKeyDown}
                 type="text"
-                placeholder="What needs to be done?"
+                placeholder="What needs to be done?" 
                 onChange={(e) => setTask(e.target.value)}
               />
             </div>
